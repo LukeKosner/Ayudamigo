@@ -199,7 +199,7 @@ export default function Home() {
                 {translation}
               </Text>
               <Text hidden={!translation}>
-                Translated and moderated by GPT-3 for Ayudamigo.
+                Translated and moderated by OpenAI's GPT-3 for Ayudamigo.
               </Text>
               <Collapse in={translation} animateOpacity>
                 <Button onClick={reset} colorScheme="blue">
