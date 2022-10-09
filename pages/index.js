@@ -18,7 +18,6 @@ import {
   Collapse,
 } from "@chakra-ui/react";
 import axios from "axios";
-import NYCImage from "../public/nyc.jpg";
 
 export default function Home() {
   const { isOpen, onToggle } = useDisclosure();
